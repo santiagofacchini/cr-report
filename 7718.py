@@ -4,8 +4,8 @@ import requests
 import bs4
 
 
-if os.path.exists('/home/santiago/vlex/cr-report/7718.json'):
-    os.remove('/home/santiago/vlex/cr-report/7718.json')
+if os.path.exists('/home/santiago/vlex/cr-report/7718.csv'):
+    os.remove('/home/santiago/vlex/cr-report/7718.csv')
 
 json_file = open('/home/santiago/vlex/cr-report/7718.json', 'r')
 vids = json.load(json_file)
